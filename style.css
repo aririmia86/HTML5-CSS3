@@ -1,5 +1,6 @@
 /* Importaciones al principio y en el mismo orden */
 @import url('css/reset.css');
+@import url('css/reticula.css');
 @import url('css/editorial.css');
 @import url('css/secciones.css');
 @import url('css/formas.css');
