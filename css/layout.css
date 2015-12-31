@@ -1,0 +1,25 @@
+/* Layout */
+header,footer{
+	background-color: #282828;
+	position: absolute;
+	width: 100%;
+}
+
+header img{
+	width: 250px;
+	display: block;
+}
+
+nav ul li{
+	color: #FFFFFF;
+	display: inline;
+	font-weight: 400;
+}
+
+footer{
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+footer, footer a{
+	color: #FFFFFF;
+}
