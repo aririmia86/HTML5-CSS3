@@ -8,6 +8,8 @@
 	text-align: center;
 	color: #FFFFFF;
 	padding: 20% 0;
+	height: 100%;
 	/*Deja de crecer si te anyado padding y crece solo cuando te modifico la altura*/
 	box-sizing: border-box;
+
 }

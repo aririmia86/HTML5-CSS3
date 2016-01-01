@@ -1,8 +1,11 @@
 /* Layout */
 header,footer{
 	background-color: #282828;
-	position: absolute;
+	position: fixed;
 	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+	color: #C3C1C1;
 }
 
 header img{
@@ -10,16 +13,14 @@ header img{
 	display: block;
 }
 
-nav ul li{
-	color: #FFFFFF;
-	display: inline;
-	font-weight: 400;
+/**/
+header{
+	top: 0;
+}
+footer{
+	bottom: 0;
 }
 
-footer{
-	padding: 20px 0;
-	box-sizing: border-box;
-}
-footer, footer a{
-	color: #FFFFFF;
+.layout_a{
+	color: #C3C1C1;
 }
