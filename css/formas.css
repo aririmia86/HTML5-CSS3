@@ -1,15 +1,27 @@
 /* Formas */
 .boton{
-	color: #FFFFFF;
-	text-decoration: none;
-	/*Transformar texto a mayusculas*/
-	text-transform: uppercase;
 	background-color: #FFB400;
 	/*Shorthand*/
 	padding: 20px 30px;
-	font-weight: 400;
 	border-bottom: 6px solid #E49100;
 	border-radius: 5px;
 	/*Compatibilidad con navegadores*/
 	-webkit-border-radius: 5px;
+	/* Tener en cuenta el padding en la caja */
+	width: 100%;
+}
+
+/* Pseudo selectores */
+.boton:hover{
+	background-color: #E49100;
+	border-top: 6px solid #FFB400;
+	border-bottom: 0 none;
+}
+
+.boton_a{
+	color: #FFFFFF;
+	text-decoration: none;
+	/*Transformar texto a mayusculas*/
+	text-transform: uppercase;
+	font-weight: 400;
 }
