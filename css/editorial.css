@@ -13,3 +13,7 @@ a{
 ol{
 	list-style: decimal;
 }
+
+ol li{
+	float: right;
+}
