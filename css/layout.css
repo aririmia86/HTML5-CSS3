@@ -22,6 +22,8 @@ footer{
 
 .layout_a{
 	color: #C3C1C1;
+	/* Transicion */
+	transition: all 5s linear;
 }
 
 .layout_a:hover{
