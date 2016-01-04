@@ -10,10 +10,16 @@ a{
 	text-decoration: none;
 }
 
-ol{
-	list-style: decimal;
+/* Permite colocar un valor en el ol */
+ol li{
+	counter-increment: step-counter;
 }
 
-ol li{
-	float: right;
+ol li::before{
+	content: counter(step-counter);
+	margin-right: 5px;
+	font-size: 15px;
+	background-color: #CCC;
+	color: #FFF;
+	padding: 3px;
 }
