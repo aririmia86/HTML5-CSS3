@@ -1,0 +1,43 @@
+/* Layout */
+
+header, footer {
+  background-color: #282828;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  color: #C3C1C1;
+}
+
+header {
+  img {
+    width: 250px;
+    display: block;
+  }
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+@mixin backgroundred{
+  background-color: red;
+  border: 1px solid blue;
+  font-size: 20px;
+}
+
+.layout_a {
+  color: #C3C1C1;
+  /* Transicion */
+  transition: all 5s linear;
+  &:hover {
+    text-decoration: underline;
+    color: #FFF;
+    @include backgroundred
+  }
+}
+
+img {
+  width: 100%;
+}
