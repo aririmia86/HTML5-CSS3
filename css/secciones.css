@@ -21,3 +21,16 @@
     max-height: 154px;
     overflow: hidden;
 }
+
+.single{
+	margin: 130px 0;
+}
+
+.info{
+	background-color: #EAEFF5;
+	color: #888d9b;
+	padding: 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}

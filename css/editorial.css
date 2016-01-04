@@ -13,13 +13,35 @@ h2{
 	margin-bottom: 30px;
 }
 
+h3{
+	font-size: 18px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-size: 10px;
+	line-height: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 p{
 	color: #636363;
+	line-height: 20px;
 }
 
 
 a{
 	text-decoration: none;
+	color: #EFACEF;
+}
+
+a.more{
+	text-transform: uppercase;
+	font-size: 10px;
+	text-decoration: underline;
+	margin-top: 20px;
 }
 
 /* Permite colocar un valor en el ol */

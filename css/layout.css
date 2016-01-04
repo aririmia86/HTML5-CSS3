@@ -24,6 +24,11 @@ footer{
 	color: #C3C1C1;
 }
 
+.layout_a:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
+
 img{
 	width: 100%;
 }
