@@ -32,6 +32,11 @@
   margin-left: -1%;
 }
 
+/* Estilo a aplicar al segundo row */
+.row + .row {
+  margin-bottom: 10px;
+}
+
 .row.reverse {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
